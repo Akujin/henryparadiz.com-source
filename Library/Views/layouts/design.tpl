@@ -17,7 +17,6 @@
 		<link rel="stylesheet" href="/js/shadowbox/shadowbox.css">
 		
 		<script src="/js/jquery/jquery-1.7.1.min.js"></script>
-		<script src="/js/shadowbox/shadowbox.js"></script>
 	</head>
 	<body>
 	    <nav class="nav">
@@ -35,6 +34,7 @@
 		</div>
 		<div id="overlay"></div>
 		<canvas id="c"></canvas>
+		<script src="/js/shadowbox/shadowbox.js"></script>
 		<script>/* oh hi */ var 悪神 = document.createElement('script'); 悪神.type = 'text/javascript'; 悪神.async = true; 悪神.src = '/js/hex.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(悪神, s); /* ああ…こんにちは */ </script>
 	</body>
 </html>

@@ -52,17 +52,19 @@ class Main extends \RequestHandler
 			
 			case '':
 				$action = 'home';
+				break;
 
 			case 'work':
 				$action = 'work'.(static::peekPath()?'/'.static::shiftPath():'');
+				break;
 			
 			default:
-				if(file_exists(templates_directory.$action.'.tpl'))
+				if(!file_exists(templates_directory.$action.'.tpl'))
 				{
-
-					return static::respond(templates_directory.$action.'.tpl');
+					return Errors::handleRequest();	
 				}
-				return Errors::handleRequest();
 		}
+
+		return static::respond(templates_directory.$action.'.tpl');
 	}
 }
