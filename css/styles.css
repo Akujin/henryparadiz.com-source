@@ -295,8 +295,8 @@ div.thumb {
 	height: 140px;
 	margin: auto;
 	background-color: #FFFFFF;
-    filter:alpha(opacity=70);
-    opacity:0.70;
+    /*filter:alpha(opacity=70);
+    opacity:0.70;*/
 	margin-top: 30px;
 	-moz-box-shadow: 0 0 5px 5px #000000;
 	-webkit-box-shadow: 0 0 5px 5px #000000;
@@ -313,11 +313,13 @@ div.thumbtitle {
 	font-weight: bold;
 	font-size: 14px;
 	position: absolute;
-	background: url(/img/magnifying.png) #000000 no-repeat 157px 9px;
+    filter:alpha(opacity=90);
+    opacity:0.90;
+	background: url(/img/magnifying.png) #000000 no-repeat 8px 9px;
 }
 
 div.thumbtitle div {
-	margin-top: 6px;
+	margin-top: 5px;
 	margin-left: 10px;
 }
 

@@ -52,6 +52,9 @@ class Main extends \RequestHandler
 			
 			case '':
 				$action = 'home';
+
+			case 'work':
+				$action = 'work'.(static::peekPath()?'/'.static::shiftPath():'');
 			
 			default:
 				if(file_exists(templates_directory.$action.'.tpl'))
