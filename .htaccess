@@ -1,0 +1,25 @@
+Options +FollowSymlinks
+Options -Indexes
+
+RewriteEngine On
+
+ErrorDocument 404 /Library/router.php
+
+RewriteRule ^$ /Library/router.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) /Library/router.php [L,QSA]
+
+
+
+<filesMatch "\.(js|css)$">
+	FileETag None
+	<ifModule mod_headers.c>
+		Header unset ETag
+		Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+		Header set Pragma "no-cache"
+		Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+	</ifModule>
+</filesMatch>
+#x
