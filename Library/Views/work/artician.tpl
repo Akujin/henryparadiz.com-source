@@ -3,6 +3,7 @@
 {block "content"}
     <div class="workheader">
         <div class="worktitle articiantitle"><div>Artician</div></div>
+        <div class="workdescription"><p>An Art community for creative types providing the ability to publish your work.</p></div>
         <div class="workgallery">
             <a href="/img/works/artician/artician-account-settings.png" rel="shadowbox[artician]">
                 <div class="thumb" style="background: url('/img/works/artician/thumbs/artician-account-settings.png') no-repeat">

@@ -2,7 +2,8 @@
 
 {block "content"}
     <div class="workheader">
-        <div class="worktitle emergencetitle"><div>Emergence</div></div>
+        <div class="worktitle emergencetitle"><div>Emergence</div><span>Code Editor</span></div>
+        <div class="workdescription"><p>A built in web-based code editor for the Emergence PHP Framework built in ExtJS with a PHP backend.</p></div>
         <div class="workgallery">
             <a href="/img/works/emergence/editor-activerecord.png" rel="shadowbox[emergence]">
                 <div class="thumb" style="background: url('/img/works/emergence/thumbs/editor-activerecord.png') no-repeat">

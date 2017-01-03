@@ -191,6 +191,12 @@ div.work div {
     font-family: AlteHaasGroteskRegular, Helvetica, Arial, sans-serif;
 }
 
+div.work div span {
+    float: left;
+    font-size: 25px;
+    text-indent: 10px;
+}
+
 div.work1 {
     background: url(/img/artician100.png) no-repeat 20px;
 }
@@ -201,6 +207,10 @@ div.work2 {
 
 div.work3 {
     background: url(/img/analytics100.png) no-repeat 20px;
+}
+
+div.work4 {
+    background: url(/img/emergence-new100.png) no-repeat 20px;
 }
 
 div.worksbottom {
@@ -227,6 +237,12 @@ div.worktitle {
     margin: auto;
 }
 
+div.worktitle span {
+    float: left;
+    font-size: 25px;
+    text-indent: 10px;
+}
+
 div.globetitle {
     width: 410px;
     height: 135px;
@@ -243,6 +259,9 @@ div.articiantitle {
 
 div.emergencetitle {
 	background: url(/img/emergence100.png) no-repeat 20px;		
+}
+div.emergence-admintitle {
+	background: url(/img/emergence-new100.png) no-repeat 20px;		
 }
 
 div.globetitle {
@@ -266,8 +285,8 @@ div.worktitle div {
 }
 
 div.workdescription {
-	font-size: 0.7em;
-	line-height: 13px;
+	font-size: 1.1em;
+	line-height: 1.1em;
 	padding: 1.5vh;
 	width: 370px;
 	text-align: left;
