@@ -213,6 +213,10 @@ div.work4 {
     background: url(/img/emergence-new100.png) no-repeat 20px;
 }
 
+div.work5 {
+    background: url(/img/cyberzone400.png) no-repeat 10px;
+}
+
 div.worksbottom {
     background: #222224;
     width: 100%;
@@ -257,6 +261,10 @@ div.articiantitle {
 	background: url(/img/artician100.png) no-repeat 30px;	
 }
 
+div.cyberzonetitle {
+	background: url(/img/cyberzone400.png) no-repeat 10px;	
+}
+
 div.emergencetitle {
 	background: url(/img/emergence100.png) no-repeat 20px;		
 }
@@ -287,10 +295,21 @@ div.worktitle div {
 div.workdescription {
 	font-size: 1.1em;
 	line-height: 1.1em;
-	padding: 1.5vh;
+	padding: 1.5vh 1.5vh 3.6vh 1.5vh;
 	width: 370px;
 	text-align: left;
 	margin: auto;
+    background-color: #000000;
+    -moz-box-shadow: 0 0 5px 5px #000000;
+	-webkit-box-shadow: 0 0 5px 5px #000000;
+	box-shadow: 0 0 5px 5px #000000;
+}
+
+div.viewsource {
+    float: right;
+    padding-top: 7px;
+    font-size: 1.05em;
+    line-height: 1.1em;
 }
 
 div.workdescription p {

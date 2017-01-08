@@ -3,8 +3,10 @@
 {block "content"}
     <div class="workheader">
         <div class="worktitle emergence-admintitle"><div>Emergence</div><span>Site Admin</span></div>
-        <div class="workdescription"><p>A specialized web based control panel for all Emergence sites which provides a GUI for managing Git repositories for the site as well as other tools to control caching and various other things.</p></div>
-        <div><a href="https://github.com/JarvusInnovations/emergence-skeleton/pull/113/commits/547ba4306a842c8408226f05a0f2414be09b2cd2">View Code on GitHub</a></div>
+        <div class="workdescription">
+            <p>A specialized web based control panel for all Emergence sites which provides a GUI for managing Git repositories for the site as well as other tools to control caching and various other things.</p>
+            <div class="viewsource"><a href="https://github.com/JarvusInnovations/emergence-skeleton/pull/113/commits/547ba4306a842c8408226f05a0f2414be09b2cd2">View Code on GitHub</a></div>
+        </div>
         <div class="workgallery">
             <a href="/img/works/emergence-site-admin/repo-uninitialized.png" rel="shadowbox[emergence]">
                 <div class="thumb" style="background: url('/img/works/emergence-site-admin/thumbs/repo-uninitialized.png') no-repeat">
