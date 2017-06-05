@@ -9,6 +9,8 @@
     font-style: normal;
 }
 
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,10 +62,17 @@ a {
 
 body {
     background-image: url(/img/background.jpg);
+    background-repeat: repeat;
     background-color: #000000;
     background-position:top left; 
     background-attachment:fixed;
     margin: 0px;
+}
+
+@media screen and (min-width : 320px) and (max-width : 500px) {
+    body {
+	    background-image: url(/img/background-mobile.jpg);
+    }
 }
 
 *, *:before, *:after {

@@ -21,26 +21,6 @@ class Main extends \RequestHandler
 		header('HTTP/1.0 200 OK');
 		header('X-Powered-By: PHP/' . phpversion() . ' Emergence Framework (http://emr.ge) Henry\'s Revision');
 		
-		
-	    
-        /*if(in_array($_SERVER['REMOTE_ADDR'],Site::$doNotTrack))
-        {
-	    	\php_error\reportErrors(array(
-	    		'error_reporting_on'		=>	E_ALL & ~E_NOTICE & ~E_STRICT
-	    		,'catch_supressed_errors'	=>	false
-	    		,'catch_ajax_errors'		=>	false
-	    		,'background_text'			=>	'AEGIS Digital'
-	    	));
-	    	
-	    	if($_GET['dev'])
-	    	{
-		    	//asjkbfkjbf();
-	    	}
-        }
-        else
-        {
-            error_reporting(0);
-        }*/
 
 		switch($action = $action?$action:static::shiftPath())
 		{
@@ -48,6 +28,10 @@ class Main extends \RequestHandler
 			/* PHP INFO */
 			case 'info':
 				phpinfo();
+				exit;
+				
+			case 'error':
+				asknalfnan();
 				exit;
 			
 			case '':
