@@ -70,6 +70,6 @@ class Errors extends \Divergence\Controllers\RequestHandler
 		header("HTTP/1.0 404 Not Found");
 		
 		
-		static::respond(templates_directory.'404.tpl',$data);	
+		static::respond('404.tpl',$data);	
 	}
 }
