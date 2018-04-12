@@ -1,7 +1,7 @@
 <?php
 namespace hpcom\Models;
 
-class BlogPost extends \Divergence\Models\Model {
+class User extends \Divergence\Models\Model {
 	//use \Divergence\Models\Versioning;
 	use \Divergence\Models\Relations;
 	
@@ -12,9 +12,9 @@ class BlogPost extends \Divergence\Models\Model {
 
 
 	// ActiveRecord configuration
-	static public $tableName = 'blog_posts';
-	static public $singularNoun = 'blogpost';
-	static public $pluralNoun = 'blogposts';
+	static public $tableName = 'users';
+	static public $singularNoun = 'user';
+	static public $pluralNoun = 'users';
 	
 	// versioning
 	//static public $historyTable = 'test_history';
@@ -22,24 +22,19 @@ class BlogPost extends \Divergence\Models\Model {
 	//static public $createRevisionOnSave = true;
 	
 	static public $fields = [
-        'Title',
-        'Permalink',
-        'MainContent',
-        'Edited' => [
-	        'type' => 'timestamp',
-	        'notnull' => false
-        ]
-        
+        'Email',
+        'DisplayName',
+        'PasswordHash'
 	];
 	
 	static public $relationships = [
-		'Creator' => [
+		/*'Creator' => [
 	    	'type' => 'one-one'
 	    	,'class' => 'User'
 	    	,'local'	=>	'CreatorID'
 	    	,'foreign' => 'ID'
 	    	//,'conditions' => 'Status != "Deleted"'
 	    	//,'order' => ['name' => 'ASC']
-	    ]
+	    ]*/
 	];
 }
