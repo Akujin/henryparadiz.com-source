@@ -41,9 +41,6 @@ class Main extends \Divergence\Controllers\RequestHandler
 			case 'work':
 				$action = 'work'.(static::peekPath()?'/'.static::shiftPath():'');
 				break;
-				
-			case 'blog':
-				return Blog::handleRequest();
 			
 			default:
 				if(!file_exists($action.'.tpl'))
