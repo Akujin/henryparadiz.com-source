@@ -24,22 +24,18 @@ class BlogPost extends \Divergence\Models\Model {
 	static public $fields = [
         'Title',
         'Permalink',
-        'MainContent',
-        'Edited' => [
-	        'type' => 'timestamp',
-	        'notnull' => false
-        ]
-        
+        'MainContent'
 	];
 	
 	static public $relationships = [
-		'Creator' => [
-	    	'type' => 'one-one'
-	    	,'class' => 'User'
-	    	,'local'	=>	'CreatorID'
-	    	,'foreign' => 'ID'
+		/*'Positions' => array(
+	    	'type' => 'one-many'
+	    	,'class' => 'Pages'
+	    	,'local'	=>	'ID'
+	    	,'foreign' => 'BlogPostID'
 	    	//,'conditions' => 'Status != "Deleted"'
-	    	//,'order' => ['name' => 'ASC']
-	    ]
+	    	,'order' => array('name' => 'ASC')
+	    )
+	    ,*/
 	];
 }

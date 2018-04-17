@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hparadiz/divergence.git",
-                "reference": "13a29d7022c6b015f404e3fd83621d3355c7048e"
+                "reference": "22fcc9ee83603626f8c7dd57e1e3a9499d23e8c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hparadiz/divergence/zipball/13a29d7022c6b015f404e3fd83621d3355c7048e",
-                "reference": "13a29d7022c6b015f404e3fd83621d3355c7048e",
+                "url": "https://api.github.com/repos/hparadiz/divergence/zipball/22fcc9ee83603626f8c7dd57e1e3a9499d23e8c5",
+                "reference": "22fcc9ee83603626f8c7dd57e1e3a9499d23e8c5",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "source": "https://github.com/hparadiz/divergence/tree/master",
                 "issues": "https://github.com/hparadiz/divergence/issues"
             },
-            "time": "2018-04-10T01:10:23+00:00"
+            "time": "2018-04-05T21:47:57+00:00"
         },
         {
             "name": "dwoo/dwoo",

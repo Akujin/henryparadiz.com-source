@@ -11,12 +11,11 @@
     <title>Musings on Tech</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="//fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="/css/blog.css" rel="stylesheet">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.13.0/themes/prism.css" integrity="sha256-kzX2z7yKWKhzn8IKBRdtcZi6kf3wvi5tdDBYIPMY5bA=" crossorigin="anonymous" />
   </head>
 
   <body>
@@ -28,7 +27,7 @@
             {*<a class="text-muted" href="#">Subscribe</a>*}
           </div>
           <div class="col-4 text-center">
-            <a class="blog-header-logo text-dark" href="/blog/">Musings on Tech from the Terminal</a>
+            <a class="blog-header-logo text-dark" href="#">Musings on Tech from the Terminal</a>
           </div>
           <div class="col-4 d-flex justify-content-end align-items-center">
             {*<a class="text-muted" href="#">
@@ -63,10 +62,10 @@
       </p>
     </footer>
 
-    <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.13.0/prism.min.js" integrity="sha256-AqXn2u4UOZ36/xOhOEYrMIqgHrq1p8m88HJO+oPzPiM=" crossorigin="anonymous"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.13.0/components/prism-php.js" integrity="sha256-EADl7JvHR98ugIWx0a9MEPq1NbOS7rKxLyjWtavg/YQ=" crossorigin="anonymous"></script>
-	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

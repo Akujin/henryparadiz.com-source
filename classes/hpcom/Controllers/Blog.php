@@ -4,7 +4,6 @@ namespace hpcom\Controllers;
 use Divergence\IO\Database\MySQL as DB;
 
 use \hpcom\Models\BlogPost as BlogPost;
-use \hpcom\App as App;
 
 class Blog extends \Divergence\Controllers\RequestHandler
 {
@@ -69,16 +68,7 @@ class Blog extends \Divergence\Controllers\RequestHandler
 	public static function handleRequest()
 	{
 		switch($action = $action?$action:static::shiftPath())
-		{	
-			case 'admin':
-				return Admin::handleRequest();
-				
-			case 'api':
-				return API::handleRequest();
-				
-			case 'logout':
-				return static::logout();
-					
+		{			
 			case '':
 				return static::home();
 				break;
@@ -114,14 +104,5 @@ class Blog extends \Divergence\Controllers\RequestHandler
 				// [tag+[tag]]
 				break;
 		}
-	}
-	
-	public static function logout() {
-		if(App::$Session->CreatorID) {
-			App::$Session->CreatorID = null;
-			App::$Session->save();
-		}
-		header('Location: /blog/');
-		exit;
 	}
 }
